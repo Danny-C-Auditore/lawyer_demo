@@ -128,4 +128,4 @@ if __name__ == "__main__":
         )
 
     demo.queue()
-    demo.launch(share=True, server_name='0.0.0.0')
+    demo.launch(share=True,server_port=args.port, server_name='172.28.0.12')
